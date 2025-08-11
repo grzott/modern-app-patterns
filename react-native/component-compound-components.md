@@ -9,6 +9,7 @@ Expose a component family under a single namespace to share state and behavior.
 
 ## Example
 
+{% raw %}
 ```tsx
 // Select.tsx
 import React, { createContext, useContext, useState } from "react";
@@ -39,6 +40,7 @@ function Option({
 
 export const Select = Object.assign(Root, { Option });
 ```
+{% endraw %}
 
 ## Why it works
 
@@ -51,6 +53,7 @@ export const Select = Object.assign(Root, { Option });
 
 Make a small `Select` using RN primitives and shared context.
 
+{% raw %}
 ```tsx
 // components/Select.tsx
 import React, { createContext, useContext, useState } from "react";
@@ -102,7 +105,9 @@ function Value() {
 
 export const Select = Object.assign(Root, { Option, Value });
 ```
+{% endraw %}
 
+{% raw %}
 ```tsx
 // screens/SelectDemo.tsx
 import React from "react";
@@ -122,6 +127,7 @@ export function SelectDemo() {
   );
 }
 ```
+{% endraw %}
 
 Notes
 

@@ -49,6 +49,7 @@ export const useTodos = create<State>()(
 );
 ```
 
+{% raw %}
 ```tsx
 // screens/TodosZustandScreen.tsx
 import React, { useState } from "react";
@@ -112,6 +113,7 @@ export function TodosZustandScreen() {
   );
 }
 ```
+{% endraw %}
 
 ## Selectors and shallow comparison
 

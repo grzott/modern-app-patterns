@@ -106,6 +106,7 @@ export default function App() {
 }
 ```
 
+{% raw %}
 ```tsx
 // features/todos/TodosScreen.tsx
 import React, { useEffect } from "react";
@@ -141,6 +142,7 @@ export function TodosScreen() {
   );
 }
 ```
+{% endraw %}
 
 Notes
 

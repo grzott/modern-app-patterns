@@ -54,6 +54,7 @@ Typed root stack + two screens navigating with params.
 export type RootStackParamList = { Home: undefined; Details: { id: string } };
 ```
 
+{% raw %}
 ```tsx
 // screens/HomeScreen.tsx
 import React from "react";
@@ -74,7 +75,9 @@ export function HomeScreen({ navigation }: Props) {
   );
 }
 ```
+{% endraw %}
 
+{% raw %}
 ```tsx
 // screens/DetailsScreen.tsx
 import React from "react";
@@ -91,6 +94,7 @@ export function DetailsScreen({ route }: Props) {
   );
 }
 ```
+{% endraw %}
 
 ```tsx
 // AppNavigator.tsx

@@ -15,6 +15,7 @@ Learn folder-based routing with Expo Router. Copy/paste these minimal files into
 
 ## Live end-to-end example (copy/paste)
 
+{% raw %}
 ```tsx
 // app/_layout.tsx
 import { Stack } from "expo-router";
@@ -28,7 +29,9 @@ export default function RootLayout() {
   );
 }
 ```
+{% endraw %}
 
+{% raw %}
 ```tsx
 // app/index.tsx
 import { Link } from "expo-router";
@@ -46,7 +49,9 @@ export default function Home() {
   );
 }
 ```
+{% endraw %}
 
+{% raw %}
 ```tsx
 // app/details/[id].tsx
 import { useLocalSearchParams } from "expo-router";
@@ -61,6 +66,7 @@ export default function Details() {
   );
 }
 ```
+{% endraw %}
 
 ```tsx
 // app/profile/_layout.tsx
@@ -70,6 +76,7 @@ export default function ProfileLayout() {
 }
 ```
 
+{% raw %}
 ```tsx
 // app/profile/index.tsx
 import { router } from "expo-router";
@@ -84,7 +91,9 @@ export default function ProfileHome() {
   );
 }
 ```
+{% endraw %}
 
+{% raw %}
 ```tsx
 // app/profile/edit.tsx
 import { router } from "expo-router";
@@ -99,6 +108,7 @@ export default function EditProfile() {
   );
 }
 ```
+{% endraw %}
 
 ## Tips
 

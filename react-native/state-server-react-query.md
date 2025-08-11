@@ -79,6 +79,7 @@ export default function App() {
 }
 ```
 
+{% raw %}
 ```tsx
 // screens/TodosRQScreen.tsx
 import React from "react";
@@ -130,6 +131,7 @@ export function TodosRQScreen() {
   );
 }
 ```
+{% endraw %}
 
 Notes
 
