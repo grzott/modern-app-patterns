@@ -17,3 +17,27 @@ Quick, modder-friendly recipes for common React Native patterns. Copy, paste, tw
   - [Compound Components](./component-compound-components.md)
 
 Tip: keep examples in a `/sandbox` app and promote stable pieces into `core/`.
+
+See also: `../sandboxes/react-native-expo` for a minimal Expo starter. Wrap your root with `NavigationContainer` and/or `QueryClientProvider` as noted in each guide.
+
+## Try it
+
+Expo (recommended on Windows)
+
+```powershell
+# 1) Create a sandbox app
+npx create-expo-app@latest rn-sandbox
+cd rn-sandbox
+
+# 2) Install libs as needed per pattern (pick what you use)
+npx expo install @tanstack/react-query
+npx expo install @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context
+npx expo install @react-native-async-storage/async-storage
+npx expo install react-native-mmkv
+npx expo install expo-router # only for the Expo Router guide
+
+# 3) Run
+npx expo start
+```
+
+Then copy files from a pattern page into your `app/` or `src/` folders (e.g., screens/, hooks/, navigation/) and tweak imports. For React Navigation, wrap your root with `NavigationContainer`. For React Query, wrap with a `QueryClientProvider`.
