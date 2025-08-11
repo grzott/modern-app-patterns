@@ -1,0 +1,31 @@
+name: patterns_sandbox
+publish_to: "none"
+version: 0.1.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Uncomment as needed when copying patterns
+  dio: ^5.4.0
+  # flutter_riverpod: ^2.5.1
+  # flutter_bloc: ^8.1.4
+  # go_router: ^14.2.0
+  # get_it: ^7.7.0
+  # shared_preferences: ^2.2.3
+  # hive: ^2.2.3
+  # hive_flutter: ^1.1.0
+
+  # Cupertino icons for iOS style
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # hive_generator: ^2.0.1
+  # build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true

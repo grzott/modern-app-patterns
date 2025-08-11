@@ -2,7 +2,7 @@
 
 Practical, copy‑pasteable patterns for modern app development. Every guide has a live, end‑to‑end example you can drop into a project (modder’s approach: copy, paste, tweak).
 
-Currently covers React Native (TypeScript), Android (Kotlin/Compose), iOS (Swift/SwiftUI), and .NET (Minimal API/MAUI). More tech can be added later.
+Currently covers React Native (TypeScript), Android (Kotlin/Compose), iOS (Swift/SwiftUI), .NET (Minimal API/MAUI), and Flutter (Dart). More tech can be added later.
 
 ## What’s inside
 
@@ -18,6 +18,7 @@ Currently covers React Native (TypeScript), Android (Kotlin/Compose), iOS (Swift
 - Android (Kotlin): see `android-kotlin/README.md`
 - iOS (Swift): see `ios-swift/README.md`
 - .NET (C#): see `dotnet/README.md`
+- Flutter (Dart): see `flutter/README.md`
 
 ## Quick start
 
@@ -33,7 +34,7 @@ Currently covers React Native (TypeScript), Android (Kotlin/Compose), iOS (Swift
 
 ## Sandboxes
 
-- See `sandboxes/README.md` for tiny starters: Expo (RN), Minimal API/.NET, MAUI, Android Compose, and SwiftUI.
+- See `sandboxes/README.md` for tiny starters: Expo (RN), Minimal API/.NET, MAUI, Android Compose, SwiftUI, and Flutter.
 
 ## Contributing
 
