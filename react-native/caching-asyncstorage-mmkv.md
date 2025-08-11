@@ -72,3 +72,10 @@ Notes
 
 - Faster time-to-content.
 - Simple TTL prevents stale data.
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- cache.ts or cache.mmkv.ts — utility module under a data/ or utils/ folder
+- Use from a screen or repo decorator (see Repository + DTO mapping guide)

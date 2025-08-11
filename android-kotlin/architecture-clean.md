@@ -104,3 +104,12 @@ fun TodoScreen(vm: TodoViewModel = hiltViewModel()) {
 Notes
 
 - The use case isolates business logic; UI depends only on it.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- domain/: Todo.kt, TodosRepo.kt, GetTodos
+- data/: Api.kt, HttpTodosRepo.kt, DTO mappers
+- di/: Hilt modules
+- ui/: TodoViewModel.kt, TodoScreen.kt

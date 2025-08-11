@@ -66,3 +66,10 @@ app.Run();
 Notes
 
 - Prefer interfaces at boundaries; keep concrete types internal to their layer.
+
+## Sandbox copy map
+
+Paste into a Minimal API project (see sandboxes/dotnet-minimal-api):
+
+- Program.cs — register services and map endpoints
+- Services/ — optional folder for concrete service implementations (e.g., SystemClock)

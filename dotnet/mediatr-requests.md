@@ -64,3 +64,10 @@ app.Run();
 Notes
 
 - Add behaviors (logging/validation) by implementing IPipelineBehavior<TRequest, TResponse> and registering them.
+
+## Sandbox copy map
+
+Paste into a Minimal API project (see sandboxes/dotnet-minimal-api):
+
+- Program.cs — register MediatR and map endpoints that send requests
+- Application/ — place request and handler classes (PingQuery, CreateTodoCommand)

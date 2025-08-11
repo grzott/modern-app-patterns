@@ -185,3 +185,11 @@ export function TodosMVVM() {
 Notes
 
 - Swap `fakeApi` with the real repo without changing the screen.
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- app/api.ts and app/useTodosVM.ts — ViewModel-like hook and API
+- screens/TodosMVVM.tsx — screen component
+- App.tsx — render <TodosMVVM />

@@ -150,3 +150,12 @@ export function TodosScreen() {
 Notes
 
 - Use a different `services` instance in tests (fake or mock).
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- app/services.ts — services factory
+- app/ServicesProvider.tsx — context provider and hook
+- screens/TodosScreen.tsx — consumer UI
+- App.tsx — wrap with <ServicesProvider services={...}>

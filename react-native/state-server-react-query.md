@@ -134,3 +134,11 @@ export function TodosRQScreen() {
 Notes
 
 - Keep domain mapping in the query fn or a small mapper.
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- app/QueryProvider.tsx — provider setup
+- screens/TodosRQScreen.tsx — the screen component
+- App.tsx — wrap your root with <QueryProvider> and render the screen

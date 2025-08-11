@@ -143,3 +143,11 @@ public partial class TodoPage : ContentPage
 Notes
 
 - Register your real services in DI and inject them into the ViewModel. The above uses the ViewModel alone for brevity.
+
+## Sandbox copy map
+
+Paste into a new MAUI app (see sandboxes/dotnet-maui):
+
+- ViewModels/TodoViewModel.cs — VM
+- Views/TodoPage.xaml and .xaml.cs — page
+- App.xaml(.cs), MauiProgram.cs — DI and shell wiring

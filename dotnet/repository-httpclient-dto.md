@@ -84,3 +84,11 @@ public sealed class HttpTodosRepository(HttpClient http) : ITodosRepository
 Notes
 
 - Use Polly handlers on the typed HttpClient for retries/timeouts. Keep DTOs internal to Infrastructure.
+
+## Sandbox copy map
+
+Paste into a Minimal API project (see sandboxes/dotnet-minimal-api):
+
+- Domain/: models + interfaces
+- Infrastructure/Http/: DTO + repository
+- Program.cs — typed HttpClient registration and endpoints

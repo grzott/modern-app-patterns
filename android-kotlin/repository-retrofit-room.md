@@ -85,3 +85,11 @@ fun TodosScreen(vm: TodoViewModel = hiltViewModel()) {
 Notes
 
 - Replace `TodoDto` and `TodoEntity` with your schema; add Paging 3 for long lists.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- data/Api.kt, data/db/TodoEntity.kt, data/TodosRepoImpl.kt — data layer
+- ui/TodosScreen.kt — UI
+- di/: modules to provide Api/Dao/Repo

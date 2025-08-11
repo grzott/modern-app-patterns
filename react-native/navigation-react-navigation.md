@@ -118,3 +118,12 @@ export function AppNavigator() {
 Notes
 
 - Use nested navigators for larger apps (tabs + stacks) and keep params typed per navigator.
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- navigation/types.ts — param list types
+- screens/HomeScreen.tsx and screens/DetailsScreen.tsx — screens
+- AppNavigator.tsx — create the navigator
+- App.tsx — export <AppNavigator /> as default

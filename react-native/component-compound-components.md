@@ -126,3 +126,11 @@ export function SelectDemo() {
 Notes
 
 - You can expose `Select.Trigger`, `Select.Content`, etc., as the component grows.
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- components/Select.tsx — compound component
+- screens/SelectDemo.tsx — demo screen
+- App.tsx — render <SelectDemo />

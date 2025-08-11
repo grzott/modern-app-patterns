@@ -59,3 +59,11 @@ fun TodoScreen(vm: TodoVm = hiltViewModel()) {
 Notes
 
 - The composable is stateless and reusable; logic lives in the VM.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- ui/TodoList.kt — stateless composable
+- ui/TodoVm.kt — ViewModel hosting state
+- ui/TodoScreen.kt — screen that wires them together

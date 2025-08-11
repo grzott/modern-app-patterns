@@ -145,3 +145,12 @@ export function TodosScreen() {
 Notes
 
 - Keep server state in RTK Query or React Query; use slices for app/UI state.
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- features/todos/slice.ts — slice and thunk
+- app/store.ts and app/hooks.ts — store and typed hooks
+- features/todos/TodosScreen.tsx — screen UI
+- App.tsx — wrap with <Provider store={store}>

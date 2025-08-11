@@ -97,3 +97,11 @@ object RepoModule { @Provides @Singleton fun repo(): TodosRepo = FakeTodosRepo()
 Notes
 
 - Swap `FakeTodosRepo` with a real Retrofit-based repo without changing UI.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- ui/TodoViewModel.kt and ui/TodoScreen.kt — VM + UI
+- domain/TodosRepo.kt — repo contract + fake impl
+- di/RepoModule.kt — Hilt module (if using Hilt)

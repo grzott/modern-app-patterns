@@ -80,3 +80,11 @@ struct TodosView: View {
 Notes
 
 - Point `baseURL` to jsonplaceholder to try quickly.
+
+## Sandbox copy map
+
+Paste into an Xcode SwiftUI app (see sandboxes/ios-swiftui):
+
+- Domain: Todo, TodosRepo
+- Data: TodoDTO, HttpTodosRepo (+ mapper)
+- UI: TodosVM, TodosView; inject repo in previews or @main App

@@ -134,3 +134,12 @@ app.Run();
 Notes
 
 - Swap InMemory for SQL Server or PostgreSQL in `UseDbContext` as needed. The handler remains unchanged.
+
+## Sandbox copy map
+
+Paste into a Minimal API solution (see sandboxes/dotnet-minimal-api):
+
+- Domain/: entities, abstractions
+- Application/: MediatR requests/handlers
+- Infrastructure/: EF Core DbContext, repositories
+- API/Program.cs — DI and endpoints

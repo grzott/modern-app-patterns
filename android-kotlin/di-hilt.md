@@ -34,3 +34,12 @@ object RepoModule {
 ## Notes
 
 - Keep bindings in feature modules when possible.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- App.kt — annotate your Application with `@HiltAndroidApp`.
+- di/NetworkModule.kt and di/RepoModule.kt — provide Retrofit/OkHttp/Api and repositories.
+- ViewModels — use `@HiltViewModel` and obtain instances with `hiltViewModel()` in composables.
+- Gradle — apply Hilt plugin and add dependencies in your module and project build files.

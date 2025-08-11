@@ -75,3 +75,11 @@ struct TodosView: View {
 Notes
 
 - Swap `HttpTodosRepo` for a fake in previews/tests.
+
+## Sandbox copy map
+
+Paste into an Xcode SwiftUI app (see sandboxes/ios-swiftui):
+
+- Domain files: Todo, TodosRepo, GetTodos
+- Data files: TodoDTO, HttpTodosRepo (+ mapper)
+- UI files: TodosVM, TodosView; set as root in @main

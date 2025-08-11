@@ -81,3 +81,11 @@ object RepoModule { @Provides @Singleton fun repo(): TodosRepo = FakeTodosRepo()
 Notes
 
 - Intents model user actions and drive all state changes via the VM.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- ui/MviViewModel.kt and ui/MviScreen.kt — intents + UI
+- domain/TodosRepo.kt — repo contract + fake impl
+- di/RepoModule.kt — Hilt module (if using Hilt)

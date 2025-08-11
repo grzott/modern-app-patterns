@@ -54,3 +54,11 @@ struct RootView: View {
 Notes
 
 - Replace `FakeTodosRepo` with a real implementation in production.
+
+## Sandbox copy map
+
+Paste into an Xcode SwiftUI app (see sandboxes/ios-swiftui):
+
+- AppContainer.swift — composition root
+- RootView.swift — SwiftUI view consuming services
+- Inject `services` into views at the app entry

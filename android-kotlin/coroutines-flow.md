@@ -63,3 +63,11 @@ fun TickerScreen(vm: TickerViewModel = hiltViewModel()) {
 Notes
 
 - `stateIn` converts a cold flow to a hot `StateFlow` bound to the VM scope.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- data/TickerRepo.kt — flow source
+- ui/TickerViewModel.kt — StateFlow exposure
+- ui/TickerScreen.kt — UI consuming the flow

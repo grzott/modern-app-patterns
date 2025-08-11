@@ -33,3 +33,10 @@ final class ImageLoader: ObservableObject {
 
 - Actors protect mutable state.
 - Use `Task {}` sparingly; prefer structured tasks.
+
+## Sandbox copy map
+
+Paste into an Xcode SwiftUI app (see sandboxes/ios-swiftui):
+
+- Utilities: retry function, actor, loaders
+- Use from a VM or directly in a small demo view

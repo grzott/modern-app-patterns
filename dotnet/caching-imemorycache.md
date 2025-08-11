@@ -88,3 +88,10 @@ app.Run();
 Notes
 
 - Prefer short TTLs for dynamic data. For distributed cache, set appropriate expiration and consider cache stampede protection.
+
+## Sandbox copy map
+
+Paste into a Minimal API project (see sandboxes/dotnet-minimal-api):
+
+- Services/CachedTodosService.cs — IMemoryCache wrapper
+- Program.cs — AddMemoryCache/AddStackExchangeRedisCache and endpoints

@@ -106,3 +106,7 @@ export default function EditProfile() {
 - Dynamic routes: `[id].tsx`, catch-all: `[...rest].tsx`.
 - Use `Link` for declarative navigation; `router` for imperative actions.
 - Add `app/+not-found.tsx` for a custom 404.
+
+## Sandbox copy map
+
+Paste the `app/` files directly into an Expo Router app (see sandboxes/react-native-expo). Ensure `expo-router` is installed and your package.json has the Expo Router config.

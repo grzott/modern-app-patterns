@@ -103,3 +103,11 @@ struct TodoView: View {
 Notes
 
 - Swap `FakeTodosRepo` with a real HTTP/Core Data-backed repo without changing the view.
+
+## Sandbox copy map
+
+Paste into an Xcode SwiftUI app (see sandboxes/ios-swiftui):
+
+- TodosRepo.swift — protocol + fake
+- TodoViewModel.swift — VM
+- TodoView.swift — SwiftUI view; set as the app's root

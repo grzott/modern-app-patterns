@@ -59,3 +59,11 @@ fun DetailsScreen(id: String) { Text("Details for $id") }
 Notes
 
 - For complex args, create a `Route` object with `build(id)` and `parse(backStackEntry)` helpers.
+
+## Sandbox copy map
+
+Paste into Android Studio project (see sandboxes/android-compose):
+
+- ui/NavGraph.kt — NavHost
+- ui/HomeScreen.kt and ui/DetailsScreen.kt — screens
+- MainActivity.kt — setContent { NavGraph(...) }

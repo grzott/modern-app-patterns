@@ -161,3 +161,11 @@ expect(useTodos.getState().items).toHaveLength(1);
 - Co-locate small stores per feature instead of a single global monolith.
 - Use selectors to avoid unnecessary re-renders.
 - Devtools middleware helps during development; remove or scope for prod.
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- stores/todos.ts — Zustand store
+- screens/TodosZustandScreen.tsx — screen UI
+- App.tsx — render <TodosZustandScreen />

@@ -284,3 +284,13 @@ const fake: TodosRepo = {
   },
 };
 ```
+
+## Sandbox copy map
+
+Paste into an Expo app (see sandboxes/react-native-expo):
+
+- domain/todos.ts — domain contracts
+- data/http.ts, data/todos.dto.ts, data/todos.repo.http.ts, data/todos.repo.cached.ts — data layer
+- data/storage.ts — AsyncStorage/MMKV adapters
+- hooks/useTodos.ts — hook
+- screens/TodosScreen.tsx — UI

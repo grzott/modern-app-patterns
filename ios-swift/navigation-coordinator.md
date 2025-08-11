@@ -29,3 +29,10 @@ final class AppCoordinator: ObservableObject, Coordinator {
 ## Notes
 
 - Scales complex flows; test navigation separately.
+
+## Sandbox copy map
+
+Paste into an Xcode SwiftUI app (see sandboxes/ios-swiftui):
+
+- Coordinator protocol + AppCoordinator.swift — navigation state
+- HomeScreen/DetailsScreen — simple views to drive navigation
